@@ -1,9 +1,5 @@
 package lesson04.genericClazz;
 
-import java.util.Arrays;
-
-import lesson04.genericMethod.GenericMethodExample;
-
 /**
  * @author spasko
  */
