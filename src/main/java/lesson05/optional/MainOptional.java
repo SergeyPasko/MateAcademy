@@ -13,7 +13,7 @@ public class MainOptional {
 		System.out.println(animal1.getName().toUpperCase());
 		// System.out.println(animal2.getName().toUpperCase());
 
-		// Optional<Animal> optionalAnimal = Optional.of(animal2);
+		//Optional<Animal> optionalAnimal = Optional.of(animal2);
 		Optional<Animal> optionalAnimal = Optional.ofNullable(animal2);
 
 		System.out.println("\nValue isPresent");

@@ -13,26 +13,32 @@ public class MainLambdaBasics {
 		};
 		System.out.println(testInterface.doSome(123));
 
-		testInterface = (Integer i) -> "Number2: " + i;
+		testInterface = (Integer t) -> "Number2: " + t;
 		System.out.println(testInterface.doSome(123));
 
-		testInterface = (i) -> "Number3: " + i;
+		testInterface = (t) -> "Number3: " + t;
 		System.out.println(testInterface.doSome(123));
 
-		testInterface = i -> "Number4: " + i;
+		testInterface = t -> "Number4: " + t;
 		System.out.println(testInterface.doSome(123));
 
-		testInterface = i -> "Number5 dont use param ";
+		testInterface = t -> "Number5 dont use param ";
 		System.out.println(testInterface.doSome(123));
 
 		testInterface = i -> i.toString();
 		System.out.println(testInterface.doSome(123));
 
-		// testInterface = Integer::toString;
-		testInterface = i -> ((Object) i).toString();
+		//testInterface = i->i.toString();
+		testInterface = t -> ((Object) t).toString();
 		System.out.println(testInterface.doSome(234));
 
 		testInterface = Object::toString;
 		System.out.println(testInterface.doSome(234));
+		
+		doReaction(t->"Number"+t);
+	}
+	
+	static public <T, V> void doReaction(TestInterface<T, V> testInterface) {
+		
 	}
 }
