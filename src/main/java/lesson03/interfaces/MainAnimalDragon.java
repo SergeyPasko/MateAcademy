@@ -4,6 +4,7 @@ package lesson03.interfaces;
  * @author spasko
  */
 public class MainAnimalDragon {
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		AnimalDragon animalDragon = new AnimalDragon();
 		// default from Animal interface
