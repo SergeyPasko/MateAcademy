@@ -8,7 +8,7 @@ import java.util.concurrent.Semaphore;
 public class MainSemaphore {
 	public static void main(String[] args) {
 		// one permission
-		Semaphore sem = new Semaphore(1);
+		Semaphore sem = new Semaphore(2);
 		CommonResource res = new CommonResource(0);
 		new Thread(new CountThread(res, sem, "CountThread 1")).start();
 		new Thread(new CountThread(res, sem, "CountThread 2")).start();

@@ -7,13 +7,13 @@ import java.util.concurrent.Semaphore;
  */
 public class CountThread implements Runnable {
 
-	CommonResource res;
-	Semaphore sem;
-	String name;
+	private CommonResource res;
+	private Semaphore semaphore;
+	private String name;
 
-	CountThread(CommonResource res, Semaphore sem, String name) {
+	public CountThread(CommonResource res, Semaphore sem, String name) {
 		this.res = res;
-		this.sem = sem;
+		this.semaphore = sem;
 		this.name = name;
 	}
 
@@ -21,7 +21,7 @@ public class CountThread implements Runnable {
 
 		try {
 			System.out.println(name + " waiting");
-			sem.acquire();
+			semaphore.acquire();
 			for (int i = 0; i < 5; i++) {
 				res.incrementValue();
 				System.out.println(this.name + ": " + res.getValue());
@@ -31,6 +31,6 @@ public class CountThread implements Runnable {
 			System.out.println(e.getMessage());
 		}
 		System.out.println(name + " end work");
-		sem.release();
+		semaphore.release();
 	}
 }

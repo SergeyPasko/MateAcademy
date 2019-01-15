@@ -1,5 +1,5 @@
 --------------------------------------------------------
---  File created - воскресенье-января-13-2019   
+--  File created - РІРѕСЃРєСЂРµСЃРµРЅСЊРµ-СЏРЅРІР°СЂСЏ-13-2019   
 --------------------------------------------------------
 --------------------------------------------------------
 --  DDL for Table BOYS
@@ -141,28 +141,28 @@ Insert into MA_STUDENT.COLORIS (NM,HAIR,EYES) values ('Kevin','Brown',null);
 Insert into MA_STUDENT.COLORIS (NM,HAIR,EYES) values ('Joel','Brown','Brown');
 REM INSERTING into MA_STUDENT.CUSTOMERS
 SET DEFINE OFF;
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2111','Рога и копыта','103','50,765');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2102','Большой Бил','101','65,345');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2103','Крупное предприятие','105','50,455');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2123','Толстый Боб','102','40,927');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2107','Смешной клоун','110','35,645');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2115','Шарашкина контора','101','20,988');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2101','Перекати поле','106','65,887');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2112','Апельсин','108','50,834');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2121','Кондор','103','45,124');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2114','Безбашенные балбесы','102','20,765');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2124','Пустой Коробок','107','40,855');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2108','Унесенные ветром','109','55,323');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2117','Сметенные огнем','106','35,324');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2122','Пустобрехи','105','30,213');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2120','Зашаренные','102','50,126');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2106','Злыдень Карпорейтед','102','65,902');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2119','Соломон трейдинг','109','25,356');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2118','Просто Балбесы','108','60,653');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2113','Волопас супермаркет','104','20,923');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2109','Молочная компания','103','25,634');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2105','Дурдом компани','101','45,865');
-Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2199','Супер Пупс','120','150,876');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2111','Р РѕРіР° Рё РєРѕРїС‹С‚Р°','103','50,765');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2102','Р‘РѕР»СЊС€РѕР№ Р‘РёР»','101','65,345');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2103','РљСЂСѓРїРЅРѕРµ РїСЂРµРґРїСЂРёСЏС‚РёРµ','105','50,455');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2123','РўРѕР»СЃС‚С‹Р№ Р‘РѕР±','102','40,927');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2107','РЎРјРµС€РЅРѕР№ РєР»РѕСѓРЅ','110','35,645');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2115','РЁР°СЂР°С€РєРёРЅР° РєРѕРЅС‚РѕСЂР°','101','20,988');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2101','РџРµСЂРµРєР°С‚Рё РїРѕР»Рµ','106','65,887');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2112','РђРїРµР»СЊСЃРёРЅ','108','50,834');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2121','РљРѕРЅРґРѕСЂ','103','45,124');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2114','Р‘РµР·Р±Р°С€РµРЅРЅС‹Рµ Р±Р°Р»Р±РµСЃС‹','102','20,765');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2124','РџСѓСЃС‚РѕР№ РљРѕСЂРѕР±РѕРє','107','40,855');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2108','РЈРЅРµСЃРµРЅРЅС‹Рµ РІРµС‚СЂРѕРј','109','55,323');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2117','РЎРјРµС‚РµРЅРЅС‹Рµ РѕРіРЅРµРј','106','35,324');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2122','РџСѓСЃС‚РѕР±СЂРµС…Рё','105','30,213');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2120','Р—Р°С€Р°СЂРµРЅРЅС‹Рµ','102','50,126');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2106','Р—Р»С‹РґРµРЅСЊ РљР°СЂРїРѕСЂРµР№С‚РµРґ','102','65,902');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2119','РЎРѕР»РѕРјРѕРЅ С‚СЂРµР№РґРёРЅРі','109','25,356');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2118','РџСЂРѕСЃС‚Рѕ Р‘Р°Р»Р±РµСЃС‹','108','60,653');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2113','Р’РѕР»РѕРїР°СЃ СЃСѓРїРµСЂРјР°СЂРєРµС‚','104','20,923');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2109','РњРѕР»РѕС‡РЅР°СЏ РєРѕРјРїР°РЅРёСЏ','103','25,634');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2105','Р”СѓСЂРґРѕРј РєРѕРјРїР°РЅРё','101','45,865');
+Insert into MA_STUDENT.CUSTOMERS (CUST_NUM,COMPANY,CUST_REP,CREDIT_LIMIT) values ('2199','РЎСѓРїРµСЂ РџСѓРїСЃ','120','150,876');
 REM INSERTING into MA_STUDENT.GIRLS
 SET DEFINE OFF;
 Insert into MA_STUDENT.GIRLS (NM,NAME,CITY) values ('2','Nancy',null);
@@ -173,11 +173,11 @@ Insert into MA_STUDENT.GIRLS (NM,NAME,CITY) values ('1','Mary','Boston');
 Insert into MA_STUDENT.GIRLS (NM,NAME,CITY) values ('6','Sarah','Seatle');
 REM INSERTING into MA_STUDENT.OFFICES
 SET DEFINE OFF;
-Insert into MA_STUDENT.OFFICES (OFFICE,CITY,REGION,MGR,TARGET,SALES) values ('22','Запиндрищинск','Запад','108','300','186,042');
-Insert into MA_STUDENT.OFFICES (OFFICE,CITY,REGION,MGR,TARGET,SALES) values ('11','Красный Мотоцикл','Восток','106','575','692,637');
-Insert into MA_STUDENT.OFFICES (OFFICE,CITY,REGION,MGR,TARGET,SALES) values ('12','Чугуевск','Восток','104','800','735,044');
-Insert into MA_STUDENT.OFFICES (OFFICE,CITY,REGION,MGR,TARGET,SALES) values ('13','Бубурино','Восток','105','350','367,911');
-Insert into MA_STUDENT.OFFICES (OFFICE,CITY,REGION,MGR,TARGET,SALES) values ('21','Котрогайка','Запад','108','725','835,915');
+Insert into MA_STUDENT.OFFICES (OFFICE,CITY,REGION,MGR,TARGET,SALES) values ('22','Р—Р°РїРёРЅРґСЂРёС‰РёРЅСЃРє','Р—Р°РїР°Рґ','108','300','186,042');
+Insert into MA_STUDENT.OFFICES (OFFICE,CITY,REGION,MGR,TARGET,SALES) values ('11','РљСЂР°СЃРЅС‹Р№ РњРѕС‚РѕС†РёРєР»','Р’РѕСЃС‚РѕРє','106','575','692,637');
+Insert into MA_STUDENT.OFFICES (OFFICE,CITY,REGION,MGR,TARGET,SALES) values ('12','Р§СѓРіСѓРµРІСЃРє','Р’РѕСЃС‚РѕРє','104','800','735,044');
+Insert into MA_STUDENT.OFFICES (OFFICE,CITY,REGION,MGR,TARGET,SALES) values ('13','Р‘СѓР±СѓСЂРёРЅРѕ','Р’РѕСЃС‚РѕРє','105','350','367,911');
+Insert into MA_STUDENT.OFFICES (OFFICE,CITY,REGION,MGR,TARGET,SALES) values ('21','РљРѕС‚СЂРѕРіР°Р№РєР°','Р—Р°РїР°Рґ','108','725','835,915');
 REM INSERTING into MA_STUDENT.ORDERS
 SET DEFINE OFF;
 Insert into MA_STUDENT.ORDERS (ORDER_NUM,ORDER_DATE,CUST,REP,MFR,PRODUCT,QTY,AMOUNT) values ('112961',to_date('17.12.89','DD.MM.RR'),'2117','106','REI','2A44L','7','31,5');
@@ -212,44 +212,44 @@ Insert into MA_STUDENT.ORDERS (ORDER_NUM,ORDER_DATE,CUST,REP,MFR,PRODUCT,QTY,AMO
 Insert into MA_STUDENT.ORDERS (ORDER_NUM,ORDER_DATE,CUST,REP,MFR,PRODUCT,QTY,AMOUNT) values ('113042',to_date('02.02.90','DD.MM.RR'),'2113','101','REI','2A44R','5','22,5');
 REM INSERTING into MA_STUDENT.PRODUCTS
 SET DEFINE OFF;
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('REI','2A45C','Бочка металлическая','79','210');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('ACI','4100Y','Коробка картонная','2,75','25');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('QSA','XK47','Труба алюминиевая','355','38');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('BIC','41672','Тарелка фарфоровая','180','0');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('IMM','779C','Профиль специальный','1875','9');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('ACI','41003','Рейка деревянная','107','207');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('ACI','41004','Рейкя пластмассовая','117','139');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('BIC','41006','Стекломаст рулоны','652','3');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('IMM','887P','Рубероид рулоны','250','24');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('QSA','XK48','Гвозд длинный','134','203');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('REI','2A44L','Доска профильная','4500','12');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('FEA','112','Стол оффисный','148','115');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('IMM','887H','Тумбочка прикроватная','54','223');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('BIC','41089','Сапоги юфтиевые','225','78');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('ACI','41001','Лампа настольная','55','277');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('IMM','775C','Осветитель ртутный','1425','5');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('ACI','4100Z','Монитор LG','2500','28');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('QSA','XK48A','Подушка ватная','177','37');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('ACI','41002','Носки черные','76','167');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('REI','2A44R','Телевизор SAMSUNG','4500','12');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('IMM','773C','Наушники SONY','975','28');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('ACI','4100X','Карандаш простой','25','37');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('FEA','114','Электродвигатель','243','15');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('IMM','887X','Нож специальный','475','32');
-Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('REI','2A44G','Бочка пластмассовая','350','14');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('REI','2A45C','Р‘РѕС‡РєР° РјРµС‚Р°Р»Р»РёС‡РµСЃРєР°СЏ','79','210');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('ACI','4100Y','РљРѕСЂРѕР±РєР° РєР°СЂС‚РѕРЅРЅР°СЏ','2,75','25');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('QSA','XK47','РўСЂСѓР±Р° Р°Р»СЋРјРёРЅРёРµРІР°СЏ','355','38');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('BIC','41672','РўР°СЂРµР»РєР° С„Р°СЂС„РѕСЂРѕРІР°СЏ','180','0');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('IMM','779C','РџСЂРѕС„РёР»СЊ СЃРїРµС†РёР°Р»СЊРЅС‹Р№','1875','9');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('ACI','41003','Р РµР№РєР° РґРµСЂРµРІСЏРЅРЅР°СЏ','107','207');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('ACI','41004','Р РµР№РєСЏ РїР»Р°СЃС‚РјР°СЃСЃРѕРІР°СЏ','117','139');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('BIC','41006','РЎС‚РµРєР»РѕРјР°СЃС‚ СЂСѓР»РѕРЅС‹','652','3');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('IMM','887P','Р СѓР±РµСЂРѕРёРґ СЂСѓР»РѕРЅС‹','250','24');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('QSA','XK48','Р“РІРѕР·Рґ РґР»РёРЅРЅС‹Р№','134','203');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('REI','2A44L','Р”РѕСЃРєР° РїСЂРѕС„РёР»СЊРЅР°СЏ','4500','12');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('FEA','112','РЎС‚РѕР» РѕС„С„РёСЃРЅС‹Р№','148','115');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('IMM','887H','РўСѓРјР±РѕС‡РєР° РїСЂРёРєСЂРѕРІР°С‚РЅР°СЏ','54','223');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('BIC','41089','РЎР°РїРѕРіРё СЋС„С‚РёРµРІС‹Рµ','225','78');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('ACI','41001','Р›Р°РјРїР° РЅР°СЃС‚РѕР»СЊРЅР°СЏ','55','277');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('IMM','775C','РћСЃРІРµС‚РёС‚РµР»СЊ СЂС‚СѓС‚РЅС‹Р№','1425','5');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('ACI','4100Z','РњРѕРЅРёС‚РѕСЂ LG','2500','28');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('QSA','XK48A','РџРѕРґСѓС€РєР° РІР°С‚РЅР°СЏ','177','37');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('ACI','41002','РќРѕСЃРєРё С‡РµСЂРЅС‹Рµ','76','167');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('REI','2A44R','РўРµР»РµРІРёР·РѕСЂ SAMSUNG','4500','12');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('IMM','773C','РќР°СѓС€РЅРёРєРё SONY','975','28');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('ACI','4100X','РљР°СЂР°РЅРґР°С€ РїСЂРѕСЃС‚РѕР№','25','37');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('FEA','114','Р­Р»РµРєС‚СЂРѕРґРІРёРіР°С‚РµР»СЊ','243','15');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('IMM','887X','РќРѕР¶ СЃРїРµС†РёР°Р»СЊРЅС‹Р№','475','32');
+Insert into MA_STUDENT.PRODUCTS (MFR_ID,PRODUCT_ID,DESCRIPTION,PRICE,QTY_ON_HAND) values ('REI','2A44G','Р‘РѕС‡РєР° РїР»Р°СЃС‚РјР°СЃСЃРѕРІР°СЏ','350','14');
 REM INSERTING into MA_STUDENT.SALESREPS
 SET DEFINE OFF;
-Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('105','Вася Пупкин','37','13','Рапорт продажа',to_date('12.02.88','DD.MM.RR'),'104','350','367,911');
-Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('109','Маша Распутина','31','11','Рапорт продажа',to_date('12.10.89','DD.MM.RR'),'106','300','392,725');
-Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('102','Филип Киркоров','48','21','Рапорт продажа',to_date('10.12.86','DD.MM.RR'),'108','350','474,05');
-Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('106','Света Разина','52','11','Круто втюхал',to_date('14.06.88','DD.MM.RR'),'108','275','299,912');
-Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('104','Наташа Королева','33','12','Рапорт пусто',to_date('19.05.87','DD.MM.RR'),'106','200','142,594');
-Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('101','Игорь Николаев','45','12','Рапорт продажа',to_date('20.10.86','DD.MM.RR'),'104','300','305,673');
-Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('110','Крис Кельми','41','13','Рапорт продажа',to_date('13.05.90','DD.MM.RR'),'101','400','75,985');
-Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('108','Игорь Петров','62','21','Рапорт продажа',to_date('12.10.89','DD.MM.RR'),'106','350','361,865');
-Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('103','Дима Маликов','29','12','Рапорт продано',to_date('01.03.87','DD.MM.RR'),'104','275','286,775');
-Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('107','Маша Сидорова','49','22','Продано все',to_date('14.11.88','DD.MM.RR'),'108','300','186,042');
-Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('120','Максим Галкин','37','12','Продано все',to_date('12.10.89','DD.MM.RR'),'108','400','386,042');
+Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('105','Р’Р°СЃСЏ РџСѓРїРєРёРЅ','37','13','Р Р°РїРѕСЂС‚ РїСЂРѕРґР°Р¶Р°',to_date('12.02.88','DD.MM.RR'),'104','350','367,911');
+Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('109','РњР°С€Р° Р Р°СЃРїСѓС‚РёРЅР°','31','11','Р Р°РїРѕСЂС‚ РїСЂРѕРґР°Р¶Р°',to_date('12.10.89','DD.MM.RR'),'106','300','392,725');
+Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('102','Р¤РёР»РёРї РљРёСЂРєРѕСЂРѕРІ','48','21','Р Р°РїРѕСЂС‚ РїСЂРѕРґР°Р¶Р°',to_date('10.12.86','DD.MM.RR'),'108','350','474,05');
+Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('106','РЎРІРµС‚Р° Р Р°Р·РёРЅР°','52','11','РљСЂСѓС‚Рѕ РІС‚СЋС…Р°Р»',to_date('14.06.88','DD.MM.RR'),'108','275','299,912');
+Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('104','РќР°С‚Р°С€Р° РљРѕСЂРѕР»РµРІР°','33','12','Р Р°РїРѕСЂС‚ РїСѓСЃС‚Рѕ',to_date('19.05.87','DD.MM.RR'),'106','200','142,594');
+Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('101','РРіРѕСЂСЊ РќРёРєРѕР»Р°РµРІ','45','12','Р Р°РїРѕСЂС‚ РїСЂРѕРґР°Р¶Р°',to_date('20.10.86','DD.MM.RR'),'104','300','305,673');
+Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('110','РљСЂРёСЃ РљРµР»СЊРјРё','41','13','Р Р°РїРѕСЂС‚ РїСЂРѕРґР°Р¶Р°',to_date('13.05.90','DD.MM.RR'),'101','400','75,985');
+Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('108','РРіРѕСЂСЊ РџРµС‚СЂРѕРІ','62','21','Р Р°РїРѕСЂС‚ РїСЂРѕРґР°Р¶Р°',to_date('12.10.89','DD.MM.RR'),'106','350','361,865');
+Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('103','Р”РёРјР° РњР°Р»РёРєРѕРІ','29','12','Р Р°РїРѕСЂС‚ РїСЂРѕРґР°РЅРѕ',to_date('01.03.87','DD.MM.RR'),'104','275','286,775');
+Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('107','РњР°С€Р° РЎРёРґРѕСЂРѕРІР°','49','22','РџСЂРѕРґР°РЅРѕ РІСЃРµ',to_date('14.11.88','DD.MM.RR'),'108','300','186,042');
+Insert into MA_STUDENT.SALESREPS (EMPL_NUM,NAME,AGE,REP_OFFICE,TITLE,HIRE_DATE,MANAGER,QUOTA,SALES) values ('120','РњР°РєСЃРёРј Р“Р°Р»РєРёРЅ','37','12','РџСЂРѕРґР°РЅРѕ РІСЃРµ',to_date('12.10.89','DD.MM.RR'),'108','400','386,042');
 --------------------------------------------------------
 --  DDL for Index PR_PRODUCTS
 --------------------------------------------------------

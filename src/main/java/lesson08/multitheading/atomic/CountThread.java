@@ -7,8 +7,8 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class CountThread implements Runnable {
 
-	AtomicInteger res;
-	String name;
+	private AtomicInteger res;
+	private String name;
 
 	CountThread(AtomicInteger res, String name) {
 		this.res = res;

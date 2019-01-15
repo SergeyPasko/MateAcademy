@@ -1,5 +1,6 @@
 package lesson08.multitheading.lock;
 
+import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -7,8 +8,8 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class CountThread implements Runnable {
 
-	CommonResource res;
-	ReentrantLock locker;
+	private CommonResource res;
+	private Lock locker;
 
 	CountThread(CommonResource res, ReentrantLock lock) {
 		this.res = res;

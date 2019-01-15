@@ -5,8 +5,8 @@ package lesson08.multitheading.executor;
  */
 public class CountThread implements Runnable {
 
-	CommonResource res;
-	String name;
+	private CommonResource res;
+	private String name;
 
 	CountThread(CommonResource res, String name) {
 		this.res = res;
