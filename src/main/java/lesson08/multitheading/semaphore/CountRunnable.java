@@ -5,13 +5,13 @@ import java.util.concurrent.Semaphore;
 /**
  * @author spasko
  */
-public class CountThread implements Runnable {
+public class CountRunnable implements Runnable {
 
 	private CommonResource res;
 	private Semaphore semaphore;
 	private String name;
 
-	public CountThread(CommonResource res, Semaphore sem, String name) {
+	public CountRunnable(CommonResource res, Semaphore sem, String name) {
 		this.res = res;
 		this.semaphore = sem;
 		this.name = name;

@@ -10,8 +10,8 @@ public class MainSemaphore {
 		// one permission
 		Semaphore sem = new Semaphore(2);
 		CommonResource res = new CommonResource(0);
-		new Thread(new CountThread(res, sem, "CountThread 1")).start();
-		new Thread(new CountThread(res, sem, "CountThread 2")).start();
-		new Thread(new CountThread(res, sem, "CountThread 3")).start();
+		new Thread(new CountRunnable(res, sem, "CountThread 1")).start();
+		new Thread(new CountRunnable(res, sem, "CountThread 2")).start();
+		new Thread(new CountRunnable(res, sem, "CountThread 3")).start();
 	}
 }

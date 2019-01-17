@@ -5,12 +5,12 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * @author spasko
  */
-public class CountThread implements Runnable {
+public class CountRunnable implements Runnable {
 
 	private AtomicInteger res;
 	private String name;
 
-	CountThread(AtomicInteger res, String name) {
+	CountRunnable(AtomicInteger res, String name) {
 		this.res = res;
 		this.name = name;
 	}

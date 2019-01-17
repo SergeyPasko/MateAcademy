@@ -55,8 +55,8 @@ public class FruitShop {
 				.collect(Collectors.toList());
 	}
 
-	public List<Fruit> allFreshAndFruitType(FruitType FruitType, LocalDate expDate) {
-		return allFruitOfFruitType(FruitType).stream().filter(f -> fruitIsValid(f, expDate, f.getDayToLive()))
+	public List<Fruit> allFreshAndFruitType(FruitType fruitType, LocalDate expDate) {
+		return allFruitOfFruitType(fruitType).stream().filter(f -> fruitIsValid(f, expDate, f.getDayToLive()))
 				.collect(Collectors.toList());
 	}
 

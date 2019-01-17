@@ -3,12 +3,12 @@ package lesson08.multitheading.executor;
 /**
  * @author spasko
  */
-public class CountThread implements Runnable {
+public class CountRunnable implements Runnable {
 
 	private CommonResource res;
 	private String name;
 
-	CountThread(CommonResource res, String name) {
+	CountRunnable(CommonResource res, String name) {
 		this.res = res;
 		this.name = name;
 	}

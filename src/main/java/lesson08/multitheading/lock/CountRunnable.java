@@ -6,12 +6,12 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * @author spasko
  */
-public class CountThread implements Runnable {
+public class CountRunnable implements Runnable {
 
 	private CommonResource res;
 	private Lock locker;
 
-	CountThread(CommonResource res, ReentrantLock lock) {
+	CountRunnable(CommonResource res, ReentrantLock lock) {
 		this.res = res;
 		locker = lock;
 	}

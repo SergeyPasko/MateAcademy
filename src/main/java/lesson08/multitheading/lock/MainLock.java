@@ -13,7 +13,7 @@ public class MainLock {
 		ReentrantLock locker = new ReentrantLock();
 		for (int i = 0; i < 6; i++) {
 
-			Thread t = new Thread(new CountThread(commonResource, locker));
+			Thread t = new Thread(new CountRunnable(commonResource, locker));
 			t.setName("Thread " + i);
 			t.start();
 		}
