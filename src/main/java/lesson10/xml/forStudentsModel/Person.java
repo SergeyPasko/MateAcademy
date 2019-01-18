@@ -1,10 +1,12 @@
 package lesson10.xml.forStudentsModel;
 
+import java.io.Serializable;
+
 /**
  * @author spasko
  */
 
-public class Person {
+public class Person implements Serializable {
 	private String name;
 	private String surname;
 	private int yearOfBorn;

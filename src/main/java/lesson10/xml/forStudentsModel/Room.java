@@ -1,10 +1,12 @@
 package lesson10.xml.forStudentsModel;
 
+import java.io.Serializable;
+
 /**
  * @author spasko
  */
 
-public class Room {
+public class Room implements Serializable {
 	private String city;
 	private String street;
 	private int house;

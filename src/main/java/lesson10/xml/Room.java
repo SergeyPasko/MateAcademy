@@ -1,5 +1,7 @@
 package lesson10.xml;
 
+import java.io.Serializable;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
@@ -8,7 +10,7 @@ import javax.xml.bind.annotation.XmlAttribute;
  * @author spasko
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Room {
+public class Room implements Serializable {
 	@XmlAttribute
 	private String city;
 	@XmlAttribute

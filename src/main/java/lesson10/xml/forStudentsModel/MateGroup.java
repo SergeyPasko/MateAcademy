@@ -3,12 +3,13 @@ package lesson10.xml.forStudentsModel;
  * @author spasko
  */
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class MateGroup {
+public class MateGroup implements Serializable {
 
 	private Person teacher;
 	private List<Person> students;

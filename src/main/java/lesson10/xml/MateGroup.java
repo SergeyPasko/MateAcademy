@@ -3,6 +3,7 @@ package lesson10.xml;
  * @author spasko
  */
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -22,7 +23,7 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo.As;
 @XmlRootElement(name = "MateGroup")
 @XmlAccessorType(XmlAccessType.FIELD)
 @JsonPropertyOrder({ "room", "teacher", "students", "humanResources" })
-public class MateGroup {
+public class MateGroup implements Serializable {
 
 	@XmlElement(type = Teacher.class)
 	private Person teacher;
