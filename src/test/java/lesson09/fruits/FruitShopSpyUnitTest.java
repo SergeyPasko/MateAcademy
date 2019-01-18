@@ -1,6 +1,7 @@
-package lesson09;
+package lesson09.fruits;
 
 import static org.junit.Assert.assertEquals;
+import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
@@ -8,24 +9,27 @@ import static org.mockito.Mockito.when;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Stream;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.Spy;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import lesson09.junit.Fruit;
-import lesson09.junit.FruitShop;
+import lesson09.junit.fruits.Fruit;
+import lesson09.junit.fruits.FruitShop;
+import lesson09.junit.fruits.FruitType;
 
 /**
  * @author spasko
  */
 @RunWith(MockitoJUnitRunner.class)
-public class FruitShopMockUnitTest {
+public class FruitShopSpyUnitTest {
+	@Spy
 	@InjectMocks
 	private FruitShop fruitShop;
 	@Mock
@@ -45,8 +49,7 @@ public class FruitShopMockUnitTest {
 		createFruitMock(pear, LocalDate.of(2019, Month.JANUARY, 11), 40);
 		createFruitMock(strawberry, LocalDate.of(2018, Month.DECEMBER, 29), 10);
 		createFruitMock(orange, LocalDate.of(2018, Month.DECEMBER, 1), 50);
-
-		when(fruits.stream()).thenReturn(Stream.of(apple, pear, strawberry, orange));
+		when(fruitShop.getFruits()).thenReturn(Arrays.asList(new Fruit[] { apple, pear, strawberry, orange }));
 	}
 
 	private void createFruitMock(Fruit fruit, LocalDate date, int timeTolive) {
@@ -62,6 +65,17 @@ public class FruitShopMockUnitTest {
 		List<Fruit> actual = fruitShop.allFresh(LocalDate.of(2019, Month.FEBRUARY, 28));
 
 		verify(apple, times(1)).clone();
+		assertEquals(expected, actual);
+	}
+
+	@Test
+	public void testAllFreshAndFruitType() {
+		doReturn(Arrays.asList(orange)).when(fruitShop).allFruitOfFruitType(FruitType.ORANGE);
+		// when(fruitShop.allFruitOfFruitType(FruitType.ORANGE)).thenReturn(Arrays.asList(orange));
+		List<Fruit> expected = new ArrayList<>();
+		expected.add(orange);
+		List<Fruit> actual = fruitShop.allFreshAndFruitType(FruitType.ORANGE, LocalDate.of(2019, Month.JANUARY, 12));
+
 		assertEquals(expected, actual);
 	}
 

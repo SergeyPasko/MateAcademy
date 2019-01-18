@@ -1,4 +1,4 @@
-package lesson09.junit;
+package lesson09.junit.fruits;
 
 /**
  * @author spasko

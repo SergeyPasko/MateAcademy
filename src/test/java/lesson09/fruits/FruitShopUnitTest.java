@@ -1,4 +1,4 @@
-package lesson09;
+package lesson09.fruits;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -14,9 +14,9 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import lesson09.junit.Fruit;
-import lesson09.junit.FruitShop;
-import lesson09.junit.FruitType;
+import lesson09.junit.fruits.Fruit;
+import lesson09.junit.fruits.FruitShop;
+import lesson09.junit.fruits.FruitType;
 
 /**
  * @author spasko
