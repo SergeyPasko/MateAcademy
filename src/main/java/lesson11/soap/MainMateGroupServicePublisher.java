@@ -6,7 +6,7 @@ import javax.xml.ws.Endpoint;
  * @author spasko
  */
 // Endpoint publisher
-public class MateGroupServicePublisher {
+public class MainMateGroupServicePublisher {
 
 	public static void main(String[] args) {
 		System.setProperty("com.sun.xml.ws.transport.http.client.HttpTransportPipe.dump", "true");

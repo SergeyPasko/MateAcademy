@@ -38,6 +38,7 @@ public class MateGroup implements Serializable {
 	@XmlElementWrapper(name = "hrs")
 	@XmlElement(name = "humanResource")
 	private Set<HumanResource> humanResources;
+	private int id;
 
 	public MateGroup(Teacher teacher, List<Person> students, Room room, Set<HumanResource> humanResources) {
 		this.teacher = teacher;
@@ -88,8 +89,17 @@ public class MateGroup implements Serializable {
 				+ humanResources + "]";
 	}
 
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public static MateGroup mateGroupExampleCreator() {
 		MateGroup mateGroup = new MateGroup();
+		mateGroup.setId(18122018);
 
 		Teacher teacher = new Teacher("Serhii", "Pasko", 1988, 666);
 		mateGroup.setTeacher(teacher);

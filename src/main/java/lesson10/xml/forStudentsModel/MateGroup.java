@@ -9,12 +9,24 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
+import javax.xml.bind.annotation.XmlRootElement;
+
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import com.fasterxml.jackson.annotation.JsonSubTypes;
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
+import com.fasterxml.jackson.annotation.JsonTypeInfo.As;
+
 public class MateGroup implements Serializable {
 
 	private Person teacher;
 	private List<Person> students;
 	private Room room;
 	private Set<HumanResource> humanResources;
+	private int id;
 
 	public MateGroup(Teacher teacher, List<Person> students, Room room, Set<HumanResource> humanResources) {
 		this.teacher = teacher;
@@ -30,6 +42,7 @@ public class MateGroup implements Serializable {
 		return teacher;
 	}
 
+	@XmlElement
 	public void setTeacher(Teacher teacher) {
 		this.teacher = teacher;
 	}
@@ -64,8 +77,17 @@ public class MateGroup implements Serializable {
 				+ humanResources + "]";
 	}
 
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public static MateGroup mateGroupExampleCreator() {
 		MateGroup mateGroup = new MateGroup();
+		mateGroup.setId(18122018);
 
 		Teacher teacher = new Teacher("Serhii", "Pasko", 1988, 666);
 		mateGroup.setTeacher(teacher);
