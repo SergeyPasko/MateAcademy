@@ -13,8 +13,8 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
-import lesson10.xml.MateGroup;
-import lesson10.xml.Person;
+import lesson10.xmljson.MateGroup;
+import lesson10.xmljson.Person;
 
 /**
  * @author spasko

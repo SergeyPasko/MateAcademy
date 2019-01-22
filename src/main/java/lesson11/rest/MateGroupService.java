@@ -2,7 +2,7 @@ package lesson11.rest;
 
 import javax.ws.rs.core.Response;
 
-import lesson10.xml.Person;
+import lesson10.xmljson.Person;
 
 /**
  * @author spasko

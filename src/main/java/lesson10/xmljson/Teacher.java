@@ -1,8 +1,11 @@
-package lesson10.xml.forStudentsModel;
+package lesson10.xmljson;
+
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * @author spasko
  */
+@XmlRootElement(name = "teacher")
 public class Teacher extends Person {
 	private int salary;
 

@@ -4,8 +4,8 @@ import java.util.List;
 
 import javax.jws.WebService;
 
-import lesson10.xml.MateGroup;
-import lesson10.xml.Person;
+import lesson10.xmljson.MateGroup;
+import lesson10.xmljson.Person;
 
 /**
  * @author spasko

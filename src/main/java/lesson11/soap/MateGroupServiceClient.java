@@ -7,9 +7,9 @@ import java.util.List;
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
 
-import lesson10.xml.Person;
-import lesson10.xml.Student;
-import lesson10.xml.Teacher;
+import lesson10.xmljson.Person;
+import lesson10.xmljson.Student;
+import lesson10.xmljson.Teacher;
 
 /**
  * @author spasko

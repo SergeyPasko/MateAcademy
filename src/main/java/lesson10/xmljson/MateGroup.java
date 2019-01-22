@@ -1,4 +1,4 @@
-package lesson10.xml;
+package lesson10.xmljson;
 /**
  * @author spasko
  */

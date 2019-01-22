@@ -1,4 +1,4 @@
-package lesson10.xml;
+package lesson10.xmljson;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
