@@ -19,7 +19,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:pm=\"http://soap.lesson11/\">\n    <soapenv:Header/>\n    <soapenv:Body>\n        <pm:getMateGroup/>\n    </soapenv:Body>\n</soapenv:Envelope>"
+					"raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:pm=\"http://soap.lesson11/\">\n    <soapenv:Header/>\n    <soapenv:Body>\n        <pm:getMateGroup>\n            <arg0>\n                18122018\n            </arg0>\n        </pm:getMateGroup>/>\n    </soapenv:Body>\n</soapenv:Envelope>"
 				},
 				"url": {
 					"raw": "http://localhost:9999/ws/mate?wsdl",
@@ -56,7 +56,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:pm=\"http://soap.lesson11/\">\n    <soapenv:Header/>\n    <soapenv:Body>\n        <pm:addStudents>\n            <arg0 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"pm:student\">\n                <name>First</name>\n                <yearOfBorn>1995</yearOfBorn>\n            </arg0>\n            <arg0 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"pm:teacher\">\n                <name>Second</name>\n                <salary>666</salary>\n                <surname>Second</surname>\n                <yearOfBorn>1990</yearOfBorn>\n            </arg0>\n        </pm:addStudents>\n    </soapenv:Body>\n</soapenv:Envelope>"
+					"raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:pm=\"http://soap.lesson11/\">\n    <soapenv:Header/>\n    <soapenv:Body>\n        <pm:addStudents>\n            <arg0>\n                18122018\n            </arg0>\n            <arg1 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"pm:student\">\n                <name>First</name>\n                <yearOfBorn>1995</yearOfBorn>\n            </arg1>\n            <arg1 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"pm:teacher\">\n                <name>Second</name>\n                <salary>666</salary>\n                <surname>Second</surname>\n                <yearOfBorn>1990</yearOfBorn>\n            </arg1>\n        </pm:addStudents>\n    </soapenv:Body>\n</soapenv:Envelope>"
 				},
 				"url": {
 					"raw": "http://localhost:9999/ws/mate?wsdl",

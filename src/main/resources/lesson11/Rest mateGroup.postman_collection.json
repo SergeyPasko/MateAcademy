@@ -25,7 +25,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:9998/rs/mate/",
+					"raw": "http://localhost:9998/rs/mate/18122018",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -34,7 +34,7 @@
 					"path": [
 						"rs",
 						"mate",
-						""
+						"18122018"
 					]
 				}
 			},
@@ -57,7 +57,7 @@
 					"raw": "{\n    \"name\": \"Iza\",\n    \"yearOfBorn\": 1997\n}"
 				},
 				"url": {
-					"raw": "http://localhost:9998/rs/mate/18122018",
+					"raw": "http://localhost:9998/rs/mate/18122018/students",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -66,7 +66,8 @@
 					"path": [
 						"rs",
 						"mate",
-						"18122018"
+						"18122018",
+						"students"
 					]
 				}
 			},

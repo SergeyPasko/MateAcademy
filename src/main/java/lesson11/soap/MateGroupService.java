@@ -19,8 +19,8 @@ import lesson10.xmljson.Person;
 public interface MateGroupService {
 
 	@WebMethod
-	public MateGroup getMateGroup();
+	public MateGroup getMateGroup(Integer groupId);
 
 	@WebMethod
-	public MateGroup addStudents(List<Person> persons);
+	public MateGroup addStudents(Integer groupId, List<Person> persons);
 }
