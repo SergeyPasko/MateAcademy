@@ -1,4 +1,4 @@
-package lesson16.hibernate;
+package lesson16.jpa;
 /**
  * @author spasko
  */
@@ -12,12 +12,11 @@ import java.sql.SQLException;
 import java.util.Date;
 import java.util.Set;
 
-import org.hibernate.ObjectNotFoundException;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
-import lesson16.hibernate.entry.Orders;
+import lesson16.entry.Orders;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class OrderDaoImplIntegrationTest {
@@ -34,10 +33,11 @@ public class OrderDaoImplIntegrationTest {
 		assertTrue(orders.size() > 15);
 	}
 
-	@Test(expected = ObjectNotFoundException.class)
+	@Test
 	public void testFindOrderByIdNotPresent() throws SQLException {
 		Orders order = orderDao.findOrderById(NOT_EXIST_ORDER);
 		System.out.println(order);
+		assertNull(order);
 	}
 
 	@Test

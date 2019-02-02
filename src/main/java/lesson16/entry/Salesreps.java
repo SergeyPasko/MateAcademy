@@ -1,5 +1,5 @@
-package lesson16.hibernate.entry;
-// Generated Feb 2, 2019 3:23:06 PM by Hibernate Tools 5.2.10.Final
+package lesson16.entry;
+// Generated Feb 2, 2019 5:38:52 PM by Hibernate Tools 5.2.10.Final
 
 import java.math.BigDecimal;
 import java.util.Date;

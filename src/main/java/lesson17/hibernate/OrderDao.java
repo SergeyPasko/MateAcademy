@@ -1,10 +1,10 @@
-package lesson16.hibernate;
+package lesson17.hibernate;
 
 import java.math.BigDecimal;
 import java.sql.SQLException;
 import java.util.Set;
 
-import lesson16.hibernate.entry.Orders;
+import lesson16.entry.Orders;
 
 /**
  * @author spasko

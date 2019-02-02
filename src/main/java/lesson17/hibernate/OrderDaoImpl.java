@@ -1,4 +1,4 @@
-package lesson16.hibernate;
+package lesson17.hibernate;
 
 import java.io.File;
 import java.math.BigDecimal;
@@ -15,11 +15,11 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 
-import lesson16.hibernate.entry.Customers;
-import lesson16.hibernate.entry.Offices;
-import lesson16.hibernate.entry.Orders;
-import lesson16.hibernate.entry.Products;
-import lesson16.hibernate.entry.Salesreps;
+import lesson16.entry.Customers;
+import lesson16.entry.Offices;
+import lesson16.entry.Orders;
+import lesson16.entry.Products;
+import lesson16.entry.Salesreps;
 
 /**
  * @author spasko
@@ -41,7 +41,7 @@ public class OrderDaoImpl implements OrderDao {
 		configObj.addAnnotatedClass(Offices.class);
 		configObj.addAnnotatedClass(Products.class);
 		configObj.addAnnotatedClass(Salesreps.class);
-		configObj.configure(new File("src\\main\\resources\\lesson16\\hibernate.cfg.xml"));
+		configObj.configure(new File("src\\main\\resources\\lesson17\\hibernate.cfg.xml"));
 
 		// Since Hibernate Version 4.x, ServiceRegistry Is Being Used
 		ServiceRegistry serviceRegistryObj = new StandardServiceRegistryBuilder()
