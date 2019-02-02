@@ -23,7 +23,7 @@ import lesson10.xmljson.Person;
  */
 @Path("/rs/mate/{groupId}")
 public class MateGroupServiceImpl implements MateGroupService {
-	private Map<Integer, MateGroup> mateGroups = Arrays.asList(MateGroup.mateGroupExampleCreator()).stream()
+	private static Map<Integer, MateGroup> mateGroups = Arrays.asList(MateGroup.mateGroupExampleCreator()).stream()
 			.collect(Collectors.toMap(MateGroup::getId, Function.identity()));
 
 	@Override
