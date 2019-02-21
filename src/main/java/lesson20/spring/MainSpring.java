@@ -3,6 +3,7 @@ package lesson20.spring;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import lesson20.spring.entity.Cat;
 import lesson20.spring.entity.Panda;
 import lesson20.spring.entity.Tiger;
 
@@ -18,6 +19,16 @@ public class MainSpring {
 
 		Panda panda = context.getBean(Panda.class);
 		System.out.println(panda);
+		
+		Cat cat = context.getBean(Cat.class);
+		System.out.println(cat);
+		
+		cat = context.getBean(Cat.class);
+		System.out.println(cat);
+		
+		cat = context.getBean(Cat.class);
+		System.out.println(cat);
+		
 		context.close();
 	}
 }
