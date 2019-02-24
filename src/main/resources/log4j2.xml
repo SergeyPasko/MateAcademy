@@ -37,7 +37,9 @@
 
 	</Appenders>
 	<Loggers>
-		<AsyncLogger name="com.mchange.v2.log.MLog" level="error" />	
+		<AsyncLogger name="com.mchange" level="error" />
+		<AsyncLogger name="org.hibernate" level="error" />
+		<AsyncLogger name="org.springframework" level="error" />
 
 		<AsyncLogger name="error-logger" level="ERROR">
 			<AppenderRef ref="FEMAIL" />
@@ -47,6 +49,5 @@
 			<AppenderRef ref="STDOUT" level="DEBUG" />
 			<AppenderRef ref="PROGRAM-LOGGER-APPENDER" level="DEBUG" />
 		</Root>
-
 	</Loggers>
 </Configuration>

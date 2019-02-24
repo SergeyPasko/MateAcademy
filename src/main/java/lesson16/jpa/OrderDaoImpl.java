@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.sql.SQLException;
 import java.util.HashSet;
 import java.util.Locale;
+import java.util.Objects;
 import java.util.Set;
 
 import javax.persistence.EntityManager;
@@ -119,6 +120,12 @@ public class OrderDaoImpl implements OrderDao {
 			throw re;
 		}
 
+	}
+
+	@Override
+	protected void finalize() {
+		if (Objects.nonNull(entityManager))
+			entityManager.close();
 	}
 
 }
