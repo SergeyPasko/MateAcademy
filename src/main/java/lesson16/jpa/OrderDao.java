@@ -11,13 +11,13 @@ import lesson16.entry.Orders;
  */
 public interface OrderDao {
 
-	Set<Orders> getAllOrders() throws SQLException;
+	Set<Orders> getAllOrders();
 
-	Orders findOrderById(BigDecimal id) throws SQLException;
+	Orders findOrderById(BigDecimal id);
 
-	boolean insertOrder(Orders order) throws SQLException;
+	boolean insertOrder(Orders order);
 
-	boolean updateOrder(Orders order) throws SQLException;
+	boolean updateOrder(Orders order);
 
-	boolean deleteOrder(BigDecimal id) throws SQLException;
+	boolean deleteOrder(BigDecimal id);
 }

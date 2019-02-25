@@ -97,7 +97,7 @@ public class OrderDaoImpl implements OrderDao {
 	}
 
 	@Override
-	public boolean insertOrder(Orders order) throws SQLException {
+	public boolean insertOrder(Orders order) {
 		boolean result = false;
 		try {
 			// Getting Session Object From SessionFactory
@@ -126,7 +126,7 @@ public class OrderDaoImpl implements OrderDao {
 	}
 
 	@Override
-	public boolean updateOrder(Orders order) throws SQLException {
+	public boolean updateOrder(Orders order) {
 		boolean result = false;
 		try {
 			// Getting Session Object From SessionFactory
@@ -157,7 +157,7 @@ public class OrderDaoImpl implements OrderDao {
 	}
 
 	@Override
-	public boolean deleteOrder(BigDecimal id) throws SQLException {
+	public boolean deleteOrder(BigDecimal id) {
 		boolean result = false;
 		try {
 			// Getting Session Object From SessionFactory

@@ -1,7 +1,6 @@
 package lesson16.jpa;
 
 import java.math.BigDecimal;
-import java.sql.SQLException;
 import java.util.HashSet;
 import java.util.Locale;
 import java.util.Objects;
@@ -106,7 +105,7 @@ public class OrderDaoImpl implements OrderDao {
 	}
 
 	@Override
-	public Set<Orders> getAllOrders() throws SQLException {
+	public Set<Orders> getAllOrders() {
 		LOG.debug("getting all Orders instances");
 		try {
 			CriteriaBuilder cb = entityManager.getCriteriaBuilder();
