@@ -9,7 +9,7 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import lesson21.springdata.entity.Orders;
+import lesson16.entry.Orders;
 import lesson21.springdata.repository.OrdersRepository;
 
 /**

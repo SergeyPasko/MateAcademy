@@ -3,7 +3,7 @@ package lesson21.springdata.service;
 import java.math.BigDecimal;
 import java.util.Set;
 
-import lesson21.springdata.entity.Orders;
+import lesson16.entry.Orders;
 
 /**
  * @author spasko
