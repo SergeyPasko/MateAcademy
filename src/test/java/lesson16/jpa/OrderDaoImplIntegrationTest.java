@@ -20,7 +20,7 @@ import lesson16.entry.Orders;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class OrderDaoImplIntegrationTest {
 	private static final BigDecimal NOT_EXIST_ORDER = BigDecimal.valueOf(-1);
-	private static final BigDecimal ALREADY_EXIST_ORDER = BigDecimal.valueOf(112922);
+	private static final BigDecimal ALREADY_EXIST_ORDER = BigDecimal.valueOf(112961);
 	private static final Orders ORDER = new Orders(BigDecimal.valueOf(12345), null, null, null, new Date(), null,
 			BigDecimal.valueOf(-1), null);
 	private OrderDao orderDao = new OrderDaoImpl();
@@ -63,4 +63,11 @@ public class OrderDaoImplIntegrationTest {
 		assertTrue(orderDao.deleteOrder(ORDER.getOrderNum()));
 	}
 
+	@Test
+	//Bad test. Use transactional operations or embedded db in this case only
+	public void testAddOrderByGenerator() {
+		Orders order = new Orders();
+		orderDao.insertOrder(order);
+		orderDao.deleteOrder(order.getOrderNum());
+	}
 }

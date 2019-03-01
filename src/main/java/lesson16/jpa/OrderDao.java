@@ -1,7 +1,6 @@
 package lesson16.jpa;
 
 import java.math.BigDecimal;
-import java.sql.SQLException;
 import java.util.Set;
 
 import lesson16.entry.Orders;

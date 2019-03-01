@@ -140,6 +140,17 @@
 			<groupId>org.glassfish.jersey.ext</groupId>
 			<artifactId>jersey-mvc-jsp</artifactId>
 			<version>2.28</version>
+			<exclusions>
+				<exclusion>
+					<groupId>javax.servlet</groupId>
+					<artifactId>servlet-api</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
 		</dependency>
 		<dependency>
 			<groupId>jstl</groupId>
@@ -161,6 +172,36 @@
 			<version>2.1.5.RELEASE</version>
 		</dependency>
 
+		<!-- Spring test -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>5.1.5.RELEASE</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Embedded H2 sql DB -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.198</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Spring MVC -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>5.1.5.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>6.0.15.Final</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
@@ -176,6 +217,9 @@
 					<target>1.8</target>
 					<includes>
 						<include>lesson18/*</include>
+						<include>lesson16/*</include>
+						<include>lesson21/*</include>
+						<include>lesson22/*</include>
 					</includes>
 				</configuration>
 			</plugin>

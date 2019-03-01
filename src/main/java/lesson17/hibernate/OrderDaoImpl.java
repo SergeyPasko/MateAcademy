@@ -2,7 +2,6 @@ package lesson17.hibernate;
 
 import java.io.File;
 import java.math.BigDecimal;
-import java.sql.SQLException;
 import java.util.HashSet;
 import java.util.Locale;
 import java.util.Set;
@@ -58,15 +57,8 @@ public class OrderDaoImpl implements OrderDao {
 		try {
 			// Getting Session Object From SessionFactory
 			sessionObj = buildSessionFactory().openSession();
-			// Getting Transaction Object From Session Object
-			sessionObj.beginTransaction();
-
-			orders = new HashSet<>(sessionObj.createQuery("FROM Orders").list());
+			orders = new HashSet<>(sessionObj.createQuery("FROM Orders", Orders.class).list());
 		} catch (Exception sqlException) {
-			if (null != sessionObj.getTransaction()) {
-				LOG.warn("\n.......Transaction Is Being Rolled Back.......\n");
-				sessionObj.getTransaction().rollback();
-			}
 			sqlException.printStackTrace();
 		} finally {
 			if (sessionObj != null) {
@@ -82,16 +74,14 @@ public class OrderDaoImpl implements OrderDao {
 		try {
 			// Getting Session Object From SessionFactory
 			sessionObj = buildSessionFactory().openSession();
-			// Getting Transaction Object From Session Object
-			sessionObj.beginTransaction();
 
-			order = (Orders) sessionObj.load(Orders.class, id);
+			order = sessionObj.get(Orders.class, id);
 		} catch (Exception sqlException) {
-			if (null != sessionObj.getTransaction()) {
-				LOG.info("\n.......Transaction Is Being Rolled Back.......\n");
-				sessionObj.getTransaction().rollback();
-			}
 			sqlException.printStackTrace();
+		} finally {
+			if (sessionObj != null) {
+				sessionObj.close();
+			}
 		}
 		return order;
 	}
@@ -133,11 +123,7 @@ public class OrderDaoImpl implements OrderDao {
 			sessionObj = buildSessionFactory().openSession();
 			// Getting Transaction Object From Session Object
 			sessionObj.beginTransaction();
-
-			Orders stuObj = sessionObj.get(Orders.class, order.getOrderNum());
-			stuObj.setAmount(order.getAmount());
-			stuObj.setQty(order.getQty());
-
+			sessionObj.update(order);
 			// Committing The Transactions To The Database
 			sessionObj.getTransaction().commit();
 			result = true;

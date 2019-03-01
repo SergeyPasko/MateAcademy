@@ -113,6 +113,8 @@ public class OrderDaoImpl implements OrderDao {
 			Root<Orders> rootEntry = cq.from(Orders.class);
 			CriteriaQuery<Orders> all = cq.select(rootEntry);
 			TypedQuery<Orders> allQuery = entityManager.createQuery(all);
+			//allQuery.setFirstResult(2);
+			//allQuery.setMaxResults(4);
 			return new HashSet<>(allQuery.getResultList());
 		} catch (RuntimeException re) {
 			LOG.error("getAll failed", re);

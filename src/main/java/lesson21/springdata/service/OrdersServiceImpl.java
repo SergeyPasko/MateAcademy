@@ -29,7 +29,7 @@ public class OrdersServiceImpl implements OrdersService {
 
 	@Override
 	public Orders findOrderById(BigDecimal id) {
-		return ordersRepository.findById(id).get();
+		return ordersRepository.findById(id).orElse(null);
 	}
 
 	@Override

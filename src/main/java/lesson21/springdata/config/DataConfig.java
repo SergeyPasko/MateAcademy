@@ -55,7 +55,7 @@ public class DataConfig {
 		LocalContainerEntityManagerFactoryBean lfb = new LocalContainerEntityManagerFactoryBean();
 		lfb.setPersistenceProviderClass(HibernatePersistenceProvider.class);
 		lfb.setDataSource(dataSource());
-		lfb.setPackagesToScan("lesson21.springdata.entity");
+		lfb.setPackagesToScan("lesson16.entry");
 		lfb.setJpaProperties(hibernateProps());
 		return lfb;
 	}
