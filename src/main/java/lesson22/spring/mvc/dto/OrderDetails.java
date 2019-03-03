@@ -3,7 +3,6 @@ package lesson22.spring.mvc.dto;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
 
 /**
  * @author spasko
@@ -14,7 +13,7 @@ public class OrderDetails {
 	@NotNull(message = "3")
 	private Integer qty;
 	@NotNull(message = "4")
-	@Pattern(regexp = "[1-9][0-9]+", message = "4")
+	@Min(value = 1, message = "4")
 	private Integer amount;
 
 	public Integer getQty() {

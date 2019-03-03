@@ -6,6 +6,8 @@ import java.util.Properties;
 
 import javax.sql.DataSource;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.hibernate.jpa.HibernatePersistenceProvider;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.CacheManager;
@@ -32,6 +34,8 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 @ComponentScan("lesson21.springdata.service")
 @PropertySource("classpath:lesson21/database.properties")
 public class DataConfig {
+	private static final Logger LOG = LogManager.getLogger(DataConfig.class);
+
 	@Value("${driver}")
 	private String propertyDriver;
 	@Value("${url}")
@@ -77,6 +81,8 @@ public class DataConfig {
 		// Optional Settings
 		cpds.setInitialPoolSize(Integer.parseInt(propertyInitialSize));
 		cpds.setMaxPoolSize(Integer.parseInt(propertyMaxActive));
+
+		LOG.debug("Establish connection to DB={}", propertyUrl);
 		return cpds;
 
 	}

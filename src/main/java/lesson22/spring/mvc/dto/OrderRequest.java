@@ -6,6 +6,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.Future;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 
 /**
  * @author spasko
@@ -16,6 +17,7 @@ public class OrderRequest {
 	@Future(message = "1")
 	private Date orderDate;
 	@NotEmpty(message = "2")
+	@Pattern(regexp = "[a-zA-Z]{1}[0-9]{2}", message = "2")
 	private String mfr;
 	@Valid
 	@NotNull(message = "3")

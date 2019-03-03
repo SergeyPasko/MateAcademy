@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import lesson10.xmljson.MateGroup;
+import springfox.documentation.annotations.ApiIgnore;
 
 /**
  * @author spasko
@@ -14,6 +15,7 @@ import lesson10.xmljson.MateGroup;
 
 @Controller
 @RequestMapping("/mvc")
+@ApiIgnore
 public class MateGroupMvcController {
 
 	private MateGroup mateGroup = MateGroup.mateGroupExampleCreator();
