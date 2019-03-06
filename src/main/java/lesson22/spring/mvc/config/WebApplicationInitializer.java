@@ -2,6 +2,8 @@ package lesson22.spring.mvc.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+import lesson23.spring.security.config.SpringSecurityConfig;
+
 /**
  * @author spasko
  */
@@ -9,7 +11,8 @@ public class WebApplicationInitializer extends AbstractAnnotationConfigDispatche
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
-		return null;
+		return new Class[] { SpringSecurityConfig.class };
+		// return null;
 	}
 
 	@Override

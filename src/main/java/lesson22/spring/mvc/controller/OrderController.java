@@ -20,6 +20,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.Authorization;
 import lesson16.entry.Orders;
 import lesson21.springdata.service.OrdersService;
 import lesson22.spring.mvc.dto.OrderRequest;
@@ -55,6 +57,7 @@ public class OrderController {
 	}
 
 	@PostMapping
+	@ApiOperation(authorizations = { @Authorization(value = "basicAuth") }, value = "addOrder")
 	public void addOrder(@Valid @RequestBody OrderRequest orderRequest) {
 		LOG.info("addOrder start, orderRequest={}", orderRequest);
 		Orders order = orderCreator.createOrder(orderRequest);
@@ -71,6 +74,7 @@ public class OrderController {
 	}
 
 	@DeleteMapping("/{id}")
+	@ApiOperation(authorizations = { @Authorization(value = "basicAuth") }, value = "deleteOrderById")
 	public void deleteOrderById(@PathVariable("id") int id) {
 		LOG.info("deleteOrderById start, id={}", id);
 		ordersService.deleteOrder(BigDecimal.valueOf(id));
@@ -78,6 +82,7 @@ public class OrderController {
 	}
 
 	@PutMapping("/{id}")
+	@ApiOperation(authorizations = { @Authorization(value = "basicAuth") }, value = "updateOrderById")
 	public void updateOrderById(@PathVariable("id") int id, @RequestParam("qty") Integer qty) {
 		LOG.info("updateOrderById start, id={}, qty={}", id, qty);
 		Orders order = ordersService.findOrderById(BigDecimal.valueOf(id));

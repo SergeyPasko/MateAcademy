@@ -14,7 +14,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  */
 @EnableWebMvc
 @Configuration
-@ComponentScans({ @ComponentScan("lesson21"), @ComponentScan("lesson22") })
+@ComponentScans({ @ComponentScan("lesson21"), @ComponentScan("lesson22"), @ComponentScan("lesson23") })
 public class MainMvcConfig extends AnnotationConfigWebApplicationContext {
 	@Bean
 	public ViewResolver getViewResolver() {
